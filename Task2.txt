@@ -22,10 +22,10 @@
 =>Concurrent Versions System(CVS),SubVersion(SVN), Git.
 
 6) When to use which type of SCM?
-=> * If you want to have a single master source tree which is to be used by a small group, 
-     then SVN should be preferred.
+=> * If you want to have a single master source tree which is to be used by a small group, then SVN 
+     should be preferred.
   
-   * If your project is open to many where several programmers are going to be working at 
-     different times and submitting several updates to the code, then Git should be preferred.
+   * If your project is open to many where several programmers are going to be working at different 
+     times and submitting several updates to the code, then Git should be preferred.
 
 
