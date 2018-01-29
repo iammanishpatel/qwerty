@@ -1,0 +1,31 @@
+1) What is contineous integration?
+=> It is a method of merging multiple piece of code multiple times into a repository by preventing integration problems.
+
+2) Why we need contineous integration?
+=>We need CI in order to get feedback on integrated code so that if a defect is found into the code
+  then it can be identified and corrected as soon as possible
+
+3) How do we achieve contineous integration?
+=>* Maintain a code repository
+  * Automate the build
+  * Make the build self-testing
+  * Everyone commits to the baseline every day
+  * Every commit should be built
+  * Keep the build fast
+  * Test in a clone of the production environment
+
+4) What is Software configutation management(SCM)?
+=>SCM is a way to keep track of the changes made in the code and sharing the info to team mates 
+  that what changes are made,by whom and when. It help in maintaining coordination among the team member.
+
+5) Types of SCM?
+=>Concurrent Versions System(CVS),SubVersion(SVN), Git.
+
+6) When to use which type of SCM?
+=> * If you want to have a single master source tree which is to be used by a small group, 
+     then SVN should be preferred.
+  
+   * If your project is open to many where several programmers are going to be working at 
+     different times and submitting several updates to the code, then Git should be preferred.
+
+
